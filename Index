@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ED EDI | Portfolio Konsultasi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-900">ED EDI</h1>
+            <div class="space-x-6 hidden md:block">
+                <a href="#audit" class="hover:text-blue-600">Audit Internal</a>
+                <a href="#risiko" class="hover:text-blue-600">Manajemen Risiko</a>
+                <a href="#fraud" class="hover:text-blue-600">Fraud Risk Management</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-blue-900 text-white py-20 px-6 text-center">
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-4">Konsultasi Audit Internal & Manajemen Risiko</h2>
+        <p class="text-xl text-blue-100 max-w-2xl mx-auto">Menyediakan metodologi terukur untuk memperkuat tata kelola dan strategi anti fraud secara sistematis.</p>
+    </header>
+
+    <!-- Services Section -->
+    <section class="max-w-6xl mx-auto py-20 px-6 grid md:grid-cols-3 gap-8">
+        
+        <!-- Audit Kuantitatif -->
+        <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-600">
+            <h3 class="text-xl font-bold mb-4">Audit Kuantitatif</h3>
+            <p class="text-slate-600 mb-4">Pengembangan buku pedoman audit internal berbasis kuantitatif (scoring system) yang berfokus pada sasaran tujuan pengendalian internal.</p>
+            <span class="text-blue-600 font-semibold cursor-pointer">Lihat Pedoman &rarr;</span>
+        </div>
+
+        <!-- Manajemen Risiko -->
+        <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-emerald-600">
+            <h3 class="text-xl font-bold mb-4">Manajemen Risiko</h3>
+            <p class="text-slate-600 mb-4">Strategi identifikasi dan mitigasi risiko operasional serta kepatuhan untuk stabilitas jangka panjang.</p>
+            <span class="text-emerald-600 font-semibold cursor-pointer">Lihat Pedoman &rarr;</span>
+        </div>
+
+        <!-- Fraud Risk -->
+        <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-red-600">
+            <h3 class="text-xl font-bold mb-4">Fraud Risk Management</h3>
+            <p class="text-slate-600 mb-4">Sistem pencegahan, deteksi, investigasi, penanganan, monitoring dan pelaporan berkelanjutan untuk melindungi aset, menjaga reputasi  dan menjamin integritas organisasi.</p>
+            <span class="text-red-600 font-semibold cursor-pointer">Lihat Pedoman &rarr;</span>
+        </div>
+
+    </section>
+
+</body>
+</html>
